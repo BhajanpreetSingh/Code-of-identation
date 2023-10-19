@@ -1,0 +1,33 @@
+.code-editor
+ {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.code-editor .editor-header
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.code-editor .editor-header .lock-button.locked
+ {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.code-container
+ {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+}
